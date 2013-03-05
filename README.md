@@ -1,6 +1,6 @@
 # League of Legends Puppet Module for Boxen
 
-Install [League of Legends](http://mouapp.com/), a popular free-to-play [MOBA](http://en.wikipedia.org/wiki/Multiplayer_online_battle_arena)
+Install [League of Legends](http://leagueoflegends.com), a popular free-to-play [MOBA](http://en.wikipedia.org/wiki/Multiplayer_online_battle_arena)
 
 ## Usage
 
