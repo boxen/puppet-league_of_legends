@@ -5,7 +5,7 @@ Install [League of Legends](http://leagueoflegends.com), a popular free-to-play 
 ## Usage
 
 ```puppet
-include league-of-legends
+include league_of_legends
 ```
 
 ## Required Puppet Modules
