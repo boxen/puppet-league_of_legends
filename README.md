@@ -4,17 +4,33 @@ Install [League of Legends](http://leagueoflegends.com), a popular free-to-play 
 
 ## Usage
 
+# EU West client:
+
 ```puppet
 include league_of_legends
+```
+
+# EU Nordic and East client:
+
+```puppet
+include league_of_legends::eune
+```
+
+# North America client:
+
+```puppet
+include league_of_legends::na
+```
+
+# Brasil client:
+
+```puppet
+include league_of_legends::br
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-
-## TO-DO
-
-At the moment it defaults to EU West, need to add support for puppet parameters for North American, Brasil, Turkey, EU East etc.
 
 ## Development
 

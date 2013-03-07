@@ -1,5 +1,7 @@
 # Public: Install League of Legends.app to /Applications.
 #
+# Default is to download EUW client
+#
 # Examples
 #
 #   include league_of_legends
