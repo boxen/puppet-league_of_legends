@@ -7,7 +7,7 @@ Install [League of Legends](http://leagueoflegends.com), a popular free-to-play 
 # EU West client:
 
 ```puppet
-include league_of_legends
+include league_of_legends::euw
 ```
 
 # EU Nordic and East client:
