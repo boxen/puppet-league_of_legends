@@ -10,9 +10,9 @@ classes = {
 }
 
 
-classes.each do |version, source|
+classes.each do |region, source|
 
-	describe version do
+	describe region do
   	it do
     	should contain_package('League of Legends').with({
       :source   => source,
