@@ -20,4 +20,5 @@ classes.each do |version, source|
     })
   	end
 	end
+
 end
