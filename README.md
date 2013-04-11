@@ -1,5 +1,7 @@
 # League of Legends Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-league_of_legends.png?branch=master)](https://travis-ci.org/boxen/puppet-league_of_legends)
+
 Install [League of Legends](http://leagueoflegends.com), a popular free-to-play [MOBA](http://en.wikipedia.org/wiki/Multiplayer_online_battle_arena)
 
 ## Usage
