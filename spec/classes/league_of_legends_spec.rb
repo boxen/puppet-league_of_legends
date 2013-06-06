@@ -11,7 +11,6 @@ classes = {
 
 
 classes.each do |region, source|
-
   describe region do
     it do
       should contain_package('League of Legends').with({
@@ -20,5 +19,15 @@ classes.each do |region, source|
       })
     end
   end
-
 end
+
+# Special case for the PBE since the package name is different.
+describe 'league_of_legends::pbe' do
+  it do
+    should contain_package('League of Legends PBE').with({
+      :source => 'http://l3cdn.riotgames.com/PBE/League%20of%20Legends%20PBE.dmg',
+      :provider => 'appdmg'
+    })
+  end
+end
+

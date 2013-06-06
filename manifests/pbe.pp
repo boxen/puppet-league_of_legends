@@ -1,10 +1,11 @@
-# North America LoL client
+# Public Beta Environment LoL client
 #
 # Examples
 #
 #   include league_of_legends::pbe
-class league_of_legends::pbe inherits league_of_legends {
-  Package['League of Legends PBE']{
+class league_of_legends::pbe {
+  package { 'League of Legends PBE':
     source   => 'http://l3cdn.riotgames.com/PBE/League%20of%20Legends%20PBE.dmg',
+    provider => 'appdmg'
   }
 }
