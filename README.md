@@ -30,6 +30,11 @@ include league_of_legends::na
 include league_of_legends::br
 ```
 
+# PBE client:
+
+```puppet
+include league_of_legends::pbe
+```
 ## Required Puppet Modules
 
 * `boxen`
