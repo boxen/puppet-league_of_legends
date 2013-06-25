@@ -24,7 +24,7 @@ include league_of_legends::eune
 include league_of_legends::na
 ```
 
-# Brasil client:
+# Brazil client:
 
 ```puppet
 include league_of_legends::br
