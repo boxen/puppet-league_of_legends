@@ -1,4 +1,4 @@
-# Brasil LoL client
+# Brazil LoL client
 #
 # Examples
 #
